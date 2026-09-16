@@ -1,0 +1,13 @@
+2026-09-16T16:02:19.239320 TB start pid=1596
+2026-09-16T16:02:19.701558 TB camera track f946db69-8888-4db2-a4bb-2068190b95e0
+2026-09-16T16:02:19.746003 TB remote track b328a63c-9e57-4bda-8725-edd27ca12e65 (camera is f946db69-8888-4db2-a4bb-2068190b95e0)
+2026-09-16T16:02:19.750002 TB pc2 connection state RTCPeerConnectionState.RTCPeerConnectionStateConnecting
+2026-09-16T16:02:19.757513 TB pc2 connection state RTCPeerConnectionState.RTCPeerConnectionStateConnected
+2026-09-16T16:02:19.765214 TB camera attached to the sender via replaceTrack
+2026-09-16T16:02:21.836592 TB A remote live (attempt 1): OK 231543 B in 62 ms
+2026-09-16T16:02:21.841783 TB pc1 closed; waiting 1 s for the pipeline to drain
+2026-09-16T16:02:24.849019 TB B remote stalled #1: PlatformException code=captureFrame message="captureFrame() timed out waiting for a video frame" after 2000 ms
+2026-09-16T16:02:26.853669 TB B remote stalled #2: PlatformException code=captureFrame message="captureFrame() timed out waiting for a video frame" after 2000 ms
+2026-09-16T16:02:26.931320 TB C local camera after timeouts: OK 3690783 B in 74 ms
+2026-09-16T16:02:26.994575 TB C local camera again: OK 3690783 B in 60 ms
+2026-09-16T16:02:26.998087 TB done

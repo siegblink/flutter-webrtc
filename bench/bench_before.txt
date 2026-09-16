@@ -1,0 +1,28 @@
+launched pid=28940 exe=C:\Users\siegb\AppData\Local/Temp/claude/C--Users-siegb-projects-hubbub-contact/1be73451-220b-4829-b64e-85c8c20df66b/scratchpad/before/flutter_webrtc_example.exe
+
+--- samples (before) ---
+
+t         privMB    wsMB  cpuS   n
+-         ------    ----  ----   -
+15:39:04  293.70  133.20  1.73   0
+15:39:09  442.20  278.20  5.34  25
+15:39:14  592.90  436.50  8.98  75
+15:39:19  724.80  568.30 13.27 100
+15:39:24  854.60  697.20 16.45 150
+15:39:29 1011.10  853.60 20.66 175
+15:39:34 1130.80  972.70 24.48 225
+15:39:39 1266.90 1109.40 28.00 275
+15:39:44 1398.70 1240.80 32.41 300
+
+
+--- summary (before) ---
+wall s:              40.1
+captures in window:  300  (7.5/s)
+private bytes delta: 1105 MB  (3.68 MB per capture)
+cpu cores avg:       0.76
+
+--- app log lines (ready / slow / errors / last stat) ---
+2026-09-16T15:39:04.580645 BENCH ready pid=28940 track=cfe6fc6a-abae-4494-9fde-294396b796cb settings={deviceId: \\?\usb#vid_046d&pid_085c&mi_00#a&16b698f&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global, frameRate: 30, height: 720, kind: videoinput, width: 1280}
+2026-09-16T15:39:04.886164 BENCH slow capture #1: 233ms
+2026-09-16T15:39:27.670398 BENCH slow capture #182: 237ms
+2026-09-16T15:39:43.219757 BENCH n=300 err=0 avg=94.4ms png=3690783B t=38s
